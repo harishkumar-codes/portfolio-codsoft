@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+nav{
+    margin-top: 2rem;
+    display: flex;
+    
+    margin-top: 20px;
+    padding: 10px;
+}
+nav h1{
+    font-family: "Playwrite CU", cursive;
+   text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white;
+}
+p a{
+    display: flex;
+  margin-left: 7rem;
+  text-decoration: none;
+ color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+p a:hover{
+    background-color: blue;
+    border-radius: 14px;
+    color: white;
+    padding: 10px;
+}
+
+.images img{
+    width: 90%;
+    height: 36rem;
+    border-radius: 13px;
+    margin-left: 15rem;
+   position: absolute;
+    bottom: 4rem;
+}
+.content{
+    position: relative;
+    top: 7rem;
+    letter-spacing: 4px;
+    left: 3rem;
+}
+.content p{
+ 
+    top: 20px;
+    position: relative;
+    width: 30rem;
+ 
+
+}
+.social-media{
+    position: absolute;
+    top: 30rem;
+    left: 2rem;
+    
+}
+.social-media i{
+    padding-left: 4rem;
+    background-color: red;
+    color: white;
+    width: 2rem;
+    padding: 8px;
+    border-radius: 13px;
+}
+.social-media button{
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 13px;
+
+}
+.social-media button:hover{
+    background-color: red;
+}
+#one{
+    position: absolute;
+    top: 8rem;
+    background-color: transparent;
+}
+#one i{
+    background-color: transparent;
+}
+#one:hover{
+    background-color: blue;
+}
+footer{
+    position: relative;
+    top: 30rem;
+    height: 4rem;
+    background-color: grey;
+}
